@@ -2,7 +2,7 @@ import flask, hashlib
 
 app = flask.Flask(__name__)
 
-OurGithub = "https://github.com/"
+OurGithub = "https://github.com/PCMGames/md5.flask"
 
 @app.route("/")
 def main():
